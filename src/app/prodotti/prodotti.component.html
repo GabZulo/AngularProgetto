@@ -8,7 +8,7 @@
                         <h5 class="card-title">{{ prodotto.nome }}</h5>
                         <p class="card-text">{{prodotto.descrizione}}</p>
                         <p class="card-text">{{prodotto.prezzo}}$</p>
-                        <button type="button" class="btn btn-success">Aggiungi al carrello</button>
+                        <button type="button" class="btn btn-success" (click)="addToCart(prodotto)">Aggiungi al carrello</button>
                     </div>
                 </div>
             </div>

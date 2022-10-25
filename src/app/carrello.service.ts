@@ -12,6 +12,7 @@ export class CarrelloService {
 
   addToCart(product: Prodotto) {
     this.cartItems.push(product);
+    alert("Prodotto aggiunto al carrello")
   }
 
   clearCart() {

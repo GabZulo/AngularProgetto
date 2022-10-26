@@ -1,9 +1,9 @@
 <div>
     <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div *ngFor="let prodotto of prodotti" style="padding: 0;">
+        <div *ngFor="let prodotto of prodotti" style="padding: 0;" style="padding: 70px; text-align: center;">
             <div class="col">
-                <div class="card" >
-                    <img src=""  alt="...">
+                <div class="card" style="text-align: center;">
+                    <img src="{{prodotto.foto}}" alt="product" style="height: 200px; width: 200px; margin: auto;">
                     <div class="card-body">
                         <h5 class="card-title">{{ prodotto.nome }}</h5>
                         <p class="card-text">{{prodotto.descrizione}}</p>

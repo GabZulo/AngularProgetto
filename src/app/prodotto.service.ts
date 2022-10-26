@@ -7,12 +7,12 @@ import { Prodotto } from './prodotto.model';
 export class ProdottoService {
 
   private _prodotti :Prodotto[] = [
-    {codice:"001",nome:"prodotto 1", prezzo:100,descrizione:"",foto:"../assets/jordan-4-retro-travis-scott-cactus-jack.webp"},
-    {codice:"002",nome:"prodotto 2", prezzo:200,descrizione:"",foto:"../assets/yeezy-700-wave-runner.jpg"},
-    {codice:"003",nome:"prodotto 3", prezzo:300,descrizione:"",foto:"../assets/yeezy-350-v2-black-red.webp"},
-    {codice:"004",nome:"prodotto 4", prezzo:400,descrizione:"",foto:"../assets/yeezy-350-white-cream.jpg"},
-    {codice:"005",nome:"prodotto 5", prezzo:500,descrizione:"",foto:"../assets/nike-dunk-low-usc.webp"},
-    {codice:"006",nome:"prodotto 6", prezzo:250,descrizione:"",foto:"../assets/nike-off-white-dunk -low-chronicles.jpg"},
+    {codice:"001",nome:"air jordan 4 cactus jack", prezzo:100,descrizione:"",foto:"../assets/jordan-4-retro-travis-scott-cactus-jack.webp"},
+    {codice:"002",nome:"yeezy 700 wave runner", prezzo:200,descrizione:"",foto:"../assets/yeezy-700-wave-runner.jpg"},
+    {codice:"003",nome:"yeezy 350 v2 black red", prezzo:300,descrizione:"",foto:"../assets/yeezy-350-v2-black-red.webp"},
+    {codice:"004",nome:"yeezy 350 white cream", prezzo:400,descrizione:"",foto:"../assets/yeezy-350-white-cream.jpg"},
+    {codice:"005",nome:"air jordan dunk low usc", prezzo:500,descrizione:"",foto:"../assets/nike-dunk-low-usc.webp"},
+    {codice:"006",nome:"air jordan dunk low chronicles x off-white ", prezzo:250,descrizione:"",foto:"../assets/nike-off-white-dunk -low-chronicles.jpg"},
   ]
 
   constructor() { }
